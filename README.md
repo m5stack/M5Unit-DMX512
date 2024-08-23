@@ -1,48 +1,21 @@
-# Product Name
+# M5Unit-DMX512
 
 ## Overview
 
-### SKU:xxx
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/unit/Unit-DMX/4.webp" alt="basic" width="350" height="350">
 
-Description of the product
+### SKU:U183
 
-## Related Link
-
-- [Document & Datasheet](https://docs.m5stack.com/en/unit/product_Link)
-
-## Required Libraries:
-
-- [Adafruit_BMP280_Library](https://github.com/adafruit/Required_Libraries_Link)
-
-## License
-
-- [Product Name- MIT](LICENSE)
-
-## Remaining steps(Editorial Staff Look,After following the steps, remember to delete all the content below)
-
-1. Change [clang format check path](./.github/workflows/clang-format-check.yml#L9-L15).
-2. Add License content to [LICENSE](/LICENSE).
-3. Change link on line 78 of [bug-report.yml](./.github/ISSUE_TEMPLATE/bug-report.yml#L78).
-
-```cpp
-Example
-# M5Unit-ENV
-
-## Overview
-
-### SKU:U001 & U001-B & U001-C
-
-Contains M5Stack-**UNIT ENV** series related case programs.ENV is an environmental sensor with integrated SHT30 and QMP6988 internally to detect temperature, humidity, and atmospheric pressure data.
+DMX Unit is a communication unit specifically designed for DMX-512 data transmission scenarios. It integrates the CA-IS3092W isolated half-duplex RS-485 transceiver, providing up to 5kVrms electrical isolation protection. The onboard 120Ω termination resistor switch matches the characteristic impedance of the signal transmission line, preventing signal reflection and distortion, and can be connected according to the usage scenario. The built-in DC-DC converter provides independent power supply for the system. Through the Grove interface, it communicates with the M5 host via serial communication. The device is equipped with an XLR-3 female interface, making it convenient for users to connect DMX devices. This product is suitable for stage lighting control, landscape lighting control, dimmer control, and other scenarios.
 
 ## Related Link
 
-- [Document & Datasheet](https://docs.m5stack.com/en/unit/envIII)
+- [Document & Datasheet](https://docs.m5stack.com/en/unit/UNIT-DMX)
 
 ## Required Libraries:
 
-- [Adafruit_BMP280_Library](https://github.com/adafruit/Adafruit_BMP280_Library)
+- [esp_dmx](https://github.com/someweisguy/esp_dmx/tree/v4.1.0)
 
 ## License
 
-- [M5Unit-ENV - MIT](LICENSE)
-```
+- [M5Unit-DMX512 - MIT](LICENSE)

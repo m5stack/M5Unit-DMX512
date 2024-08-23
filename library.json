@@ -1,0 +1,16 @@
+{
+  "name": "M5Unit-DMX512",
+  "description": "Library for M5Stack UNIT DMX512",
+  "keywords": "M5Stack DMX512 U183",
+  "authors": {
+    "name": "M5Stack",
+    "url": "http://www.m5stack.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m5stack/M5Unit-DMX512.git"
+  },
+  "version": "0.0.1",
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}
